@@ -1,8 +1,8 @@
 def da(a: list[int], b: list[int]) -> list[int]:
 
     # находит общие элементы двух списков без повторений
-    # Args: a (list[int]): первый список
-    #b (list[int]): второй список
+    # Args: a list[int]: первый список
+    #b list[int]: второй список
 
     # Returns: list[int]: список общих элементов
     s1 = set(a)
@@ -16,3 +16,4 @@ list2 = [4, 5, 6, 7, 8, 5]
 
 itog = da(list1, list2)
 print(itog)
+
